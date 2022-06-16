@@ -6,7 +6,7 @@ public class FurnitureOrder implements FurnitureOrderInterface {
     /**
      * TODO: Create a map of Furniture items to order quantities
      */
-
+        TreeMap<String,Double>() m1 = new TreeMap<>();
     /**
      * Initialize a new mapping of Furniture types to order quantities.
      */
@@ -16,11 +16,13 @@ public class FurnitureOrder implements FurnitureOrderInterface {
 
     public void addToOrder(final Furniture type, final int furnitureCount) {
         // TODO: Complete the method
+        FurnitureOrder fur = new FurnitureOrder();
     }
 
     public HashMap<Furniture, Integer> getOrderedFurniture() {
         // TODO: Complete the method
-        return null;
+        
+        return m1;
     }
 
     public float getTotalOrderCost() {
